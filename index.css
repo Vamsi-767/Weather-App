@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+}
+ 
+.container {
+  background: #fcfcfd;
+  background: linear-gradient(364deg, #1e83f7 0%, #0fb1fc 100%);
+  width: 340px;
+  height: 630px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 14px;
+}
+ 
+.container_date
+{
+  color: rgb(236, 234, 234);
+  margin-top:80px;
+  opacity: 51%;
+  font-size: 25px;
+  font-weight: 420;
+}
+ 
+.container_city
+{
+  margin-top: 1rem;
+  font-size: 40px;
+  font-weight: 720;
+  color: rgb(226, 222, 222);
+ 
+}
+ 
+.container_degree{
+  font-size: 60px;
+  font-weight: 830;
+  color: rgb(238, 236, 236);
+  position: relative;
+  top: -22px;
+}
+ 
+.container_img
+{
+  position: relative;
+  top: -37px;
+}
+ 
+.degree_icon
+{
+  font-size: 25px;
+}
+ 
+.country_per
+{
+  position: relative;
+  top: -25px;
+  color: rgb(235, 234, 234);
+  font-size: 19px;
+}
+ 
+.input {
+  border: none;
+  padding: 1rem;
+  border-radius: 0px 0px 0px 15px;
+  background: #d8d8d8;
+  transition: 0.7s;
+  position: relative;
+  top: -4px;
+ }
+  
+ .input:focus {
+  outline-color: #d8d7d7;
+  background: #d8d8d8;
+  box-shadow: inset 20px 20px 60px #dad9d9,
+     inset -20px -20px 60px #e7e7e7;
+  transition: 0.7s;
+ }
+  
+ button 
+  {
+    color: #302f2f;
+    padding: 0.5em 0.8em;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid #d3d3d3;
+    transition: all 0.3s;
+}
+ 
+button:active {
+  color: #c7c5c5;
+  box-shadow: inset 4px 4px 12px #afafaf, inset -4px -4px 12px #faf6f6;
+}
+ 
+.form
+{
+  margin-top: 3rem;
+}
